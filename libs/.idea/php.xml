@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/d3" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/jquery" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/less" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/vega" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/vega-lite" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/viscompass" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/facebook/php-sdk-v4" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/assets-loader" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/bootstrap" />
+      <path value="$PROJECT_DIR$/../../localhost/vendor/public/compass-mixins" />
+    </include_path>
+  </component>
+</project>
