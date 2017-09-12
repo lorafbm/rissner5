@@ -1,0 +1,1559 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/*header*/
+
+header {
+    background: url(/skins/default/img/bghead.png) repeat;
+    margin: 0;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    height: 35px;
+    text-align: left;
+}
+
+.left a {
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+
+/*белый*/
+.f {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 0;
+    margin-left: 90px;
+}
+
+/*красный*/
+.f:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -48px 0;
+}
+
+/*красная рамка*/
+.f:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -145px 0;
+}
+
+.g {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -46px;
+    margin-top: 8px;
+}
+
+.g:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -41px -44px;
+}
+
+.g:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -129px -46px;
+}
+
+.c {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -92px;
+}
+
+.c:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -45px -92px;
+}
+
+.c:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -135px -90px;
+}
+
+.r {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -138px;
+}
+
+.r:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -43px -137px;
+}
+
+.r:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -133px -136px;
+}
+
+.in {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -184px;
+}
+
+.in:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -39px -186px;
+}
+
+.in:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -125px -192px;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    height: 35px;
+    text-align: left;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+
+.rline {
+    border-right: 1px solid #343C38;
+}
+
+.right, header a {
+    font: 12px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.right a:hover {
+    color: #f1373a;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hr {
+    margin: 2px;
+    border-top: 1px solid #343C38;
+}
+
+nav {
+    /*width:920px;*/
+    height: 50px;
+    margin: 0 20px 0 auto;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+}
+
+nav a {
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.active {
+    color: #949494;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    color: #949494;
+}
+
+.logo {
+    position: absolute;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -468px;
+    width: 231px;
+    height: 88px;
+    left: 100px;
+    top: -55px;
+}
+
+.lupa {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat 10px -220px;
+    margin-left: 5px;
+    border-left: 1px solid #343C38;
+}
+
+.lupa:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -32px -218px;
+}
+
+/*центральная картинка*/
+.centrpic {
+    background: url(/skins/default/img/centrpic.jpeg) no-repeat;
+    height: 361px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+}
+
+/*3 картинки с прозрачным фоном*/
+.scrollpictures {
+    margin: 0 auto;
+    padding: 0;
+    background: url(/skins/default/img/bg-scrollpic.png) repeat;
+
+}
+
+.scrollpictures a {
+    float: left;
+    display: block;
+}
+
+.scrollpictures a img {
+    width: 170px;
+    height: 90px;
+    border: 2px solid #fff;
+}
+
+.wscrollpictures {
+    width: 555px;
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+.scrollpictures p {
+    font: 18px Arial, Helvetica, sans-serif, anton;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.scrollpic2:hover div {
+    position: absolute;
+    width: 175px;
+    height: 94px;
+    background: url(/skins/default/img/prfon.png) repeat 100px 187px;
+    z-index: 1;
+}
+
+.scrollpic3:hover div {
+    position: absolute;
+    width: 175px;
+    height: 94px;
+    background: url(/skins/default/img/prfon.png) repeat 100px 371px;
+    z-index: 1;
+}
+
+.lscroll {
+    position: absolute;
+    left: -60px;
+    top: 130px;
+    width: 20px;
+    height: 27px;
+    background: url(/skins/default/img/sprite.png) no-repeat -354px -424px;
+}
+
+.lscroll:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -354px -454px;
+    left: -61px;
+}
+
+.rscroll {
+    position: absolute;
+    right: -60px;
+    top: 132px;
+    width: 20px;
+    height: 27px;
+    background: url(/skins/default/img/sprite.png) no-repeat -393px -423px;
+}
+
+.rscroll:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -393px -449px;
+    right: -63px;
+    top: 130px;
+}
+
+.prfon {
+    position: absolute;
+    width: 174px;
+    height: 94px;
+    background: url(/skins/default/img/prfon.png) repeat 100px 5px;
+    z-index: 1;
+}
+
+/* блок 4 колонки welcome*/
+.welcome {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wwelcome {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.title {
+    font: 25px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 40px 20px;
+    text-align: center;
+    color: #222220;
+}
+
+.welcome hr, .oferta hr, .progects hr {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.wpic1 {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -590px;
+    width: 213px;
+    height: 178px;
+}
+
+.wpic2 {
+    background: url(/skins/default/img/sprite.png) no-repeat -231px -590px;
+    width: 212px;
+    height: 178px;
+}
+
+.wpic3 {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    background: url(/skins/default/img/sprite.png) no-repeat -464px -591px;
+    width: 208px;
+    height: 177px;
+
+}
+
+.wpic4 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background: url(/skins/default/img/sprite.png) no-repeat -691px -595px;
+    width: 213px;
+    height: 173px;
+}
+
+.col {
+    float: left;
+    width: 226px;
+    text-align: center;
+    padding: 8px;
+}
+
+h2 {
+    font: 20px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    color: #141211;
+}
+
+.text {
+    font: 13px Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    color: #c9c9c9;
+}
+
+.button {
+    width: 90px;
+    margin: 5px auto 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.col a {
+    font: 10px Arial, Helvetica, sans-serif, anton;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    text-decoration: none;
+    padding: 13px 5px 13px 5px;
+
+}
+
+.col a:hover {
+    background-color: #f1373a;
+    border: 1px solid #f1373a;
+    color: #ffffff;
+}
+
+/*блок с видео*/
+.oferta {
+    background-color: #E7E7E7;
+    margin: 0 auto;
+}
+
+.woferta {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.ofpic {
+    float: left;
+    background: url(/skins/default/img/sprite.png) no-repeat -384px 0;
+    width: 355px;
+    height: 218px;
+    border: 4px solid #fff;
+    margin: 40px 30px 40px 40px;
+    display: block;
+}
+
+.ofpic:hover div {
+    background-image: none;
+}
+
+.circle {
+    background: url(/skins/default/img/sprite.png) no-repeat -518px -264px;
+    width: 66px;
+    height: 64px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+h3 {
+    font: 16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #444;
+}
+
+.oferta p {
+    font: 12px/22px Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-transform: none;
+    text-align: justify;
+    color: #5f5e5e;
+}
+
+p.otitle {
+    font: 25px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222220;
+    padding: 20px;
+    text-align: center;
+}
+
+.oferta ul {
+    float: left;
+    margin-right: 40px;
+    margin-top: 5px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.oferta li a {
+    font: 12px/28px Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    text-align: left;
+    text-transform: none;
+    color: #5f5e5e;
+    padding-left: 0px;
+}
+
+.oferta li:before {
+    content: "";
+    float: left;
+    margin: 7px 10px 0px 0px;
+    background: url(/skins/default/img/sprite.png) no-repeat -289px -241px;
+    width: 14px;
+    height: 16px;
+
+}
+
+.oferta li a:hover {
+    color: #F00;
+}
+
+/*блок 4 колонки проекты*/
+.progects {
+    width: 990px;
+    margin: 0 auto 70px auto;
+    position: relative;
+}
+
+.progects p {
+    width: 188px;
+    height: 20px;
+    margin: 0;
+    padding: 25px 0 15px 10px;
+
+}
+
+.ptitle {
+    font: 25px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    color: #222220;
+}
+
+.progects li {
+    float: left;
+    background-color: #eaeaea;
+    margin: 0 20px 80px 0;
+    list-style: none;
+    border-bottom: 6px solid #E1E1E1;
+    text-align: left;
+    text-transform: uppercase;
+    font: 10px Arial, Helvetica, sans-serif;
+    color: #091824;
+    font-weight: bold;
+}
+
+.progects li:hover {
+    background-color: #393F39;
+    border-bottom: 6px solid #252A25;
+    color: #f1373a;
+}
+
+.progects li:hover a {
+    background: url(/skins/default/img/sprite.png) no-repeat -321px -277px;
+}
+
+.progects a {
+    width: 36px;
+    height: 36px;
+    background: url(/skins/default/img/sprite.png) no-repeat -321px -223px;
+    display: block;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+.progects li a:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -321px -333px;
+    margin-top: -32px;
+}
+
+.cav {
+    width: 28px;
+    height: 43px;
+    background: url(/skins/default/img/sprite.png) no-repeat -329px -63px;
+    margin-left: 870px;
+    float: left;
+}
+
+.cav:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -293px -161px;
+}
+
+.cav1 {
+    width: 28px;
+    height: 43px;
+    background: url(/skins/default/img/sprite.png) no-repeat -327px -117px;
+    margin-left: 910px;
+    margin-right: 150px;
+}
+
+.cav1:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -330px -161px;
+}
+
+/*блок ссылки реклама*/
+.partners {
+    background: url(/skins/default/img/bgpartners.png) repeat;
+}
+
+.wpartners {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.partners a {
+    float: left;
+    display: block;
+}
+
+.gabro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(/skins/default/img/sprite.png) no-repeat -904px 0;
+    width: 150px;
+    height: 75px;
+}
+
+.gabro:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1102px -2px;
+}
+
+.industrix {
+    background: url(/skins/default/img/sprite.png) no-repeat -897px -94px;
+    width: 175px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.industrix:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1083px -92px;
+}
+
+.rapid {
+    background: url(/skins/default/img/sprite.png) no-repeat -904px -189px;
+    width: 130px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.rapid:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1085px -190px;
+
+}
+
+.diplomat {
+    background: url(/skins/default/img/sprite.png) no-repeat -904px -293px;
+    width: 160px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.diplomat:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1075px -293px;
+}
+
+.green {
+    background: url(/skins/default/img/sprite.png) no-repeat -904px -383px;
+    width: 150px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.green:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1065px -381px;
+}
+
+.foower {
+    background: url(/skins/default/img/sprite.png) no-repeat -897px -479px;
+    width: 150px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.foower:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -1071px -482px;
+}
+
+/*футер 4 колонки*/
+footer {
+    background-color: #262321;
+
+}
+
+.wfooter {
+    width: 990px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.f1, .f2, .f3, .seti {
+    float: left;
+    width: 235px;
+    margin: 6px;
+}
+
+.f1 h1 {
+    font: 25px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFF;
+}
+
+.f1 p {
+    color: #f1373a;
+    font: 18px/21px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.ppart {
+    color: #959595;
+}
+
+.f1 a {
+    text-decoration: none;
+    color: #959595;
+    text-transform: uppercase;
+}
+
+.f1 a:hover {
+    color: #f1373a;
+}
+
+.ftitle {
+    font: 18px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFF;
+    border-bottom: 1px solid #343C38;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: #959595;
+    font: 13px Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1373a;
+    font-size: 14px;
+    text-transform: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.phone {
+    font: bold 28px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.dotted {
+    border-bottom: 1px dotted #343C38;
+    padding-bottom: 10px;
+}
+
+.seti a {
+    float: left;
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.ff {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat -98px 0;
+    margin-left: 10px;
+}
+
+.ff:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -49px 0px;
+}
+
+.ff:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -145px 0;
+}
+
+.fg {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat -86px -44px;
+}
+
+.fg:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -42px -42px;
+}
+
+.fg:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -129px -44px;
+}
+
+.fc {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat -92px -90px;
+}
+
+.fc:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -45px -91px;
+}
+
+.fc:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -135px -89px;
+}
+
+.fr {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat -86px -140px;
+}
+
+.fr:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -44px -139px;
+}
+
+.fr:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -134px -138px;
+}
+
+.fin {
+    width: 30px;
+    height: 30px;
+    background: url(/skins/default/img/sprite.png) no-repeat -84px -188px;
+}
+
+.fin:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -42px -185px;
+}
+
+.fin:active {
+    background: url(/skins/default/img/sprite.png) no-repeat -128px -191px;
+}
+
+/*карта*/
+.map {
+    background: url(/skins/default/img/map1.png) no-repeat;
+    height: 231px;
+    margin: 0 auto;
+    background-size: cover;
+    display: block;
+}
+
+/* иконка-ссылка наверх*/
+.uptotop {
+    position: fixed;
+    width: 29px;
+    height: 29px;
+    background: url(/skins/default/img/sprite.png) no-repeat -266px -288px;
+    right: 40px;
+    bottom: 100px;
+    padding: 0;
+}
+
+.uptotop:hover {
+    background: url(/skins/default/img/sprite.png) no-repeat -264px -392px;
+}
+
+/* include*/
+.include {
+    /*width: 990px;*/
+    margin: 0 auto;
+
+}
+
+.include h1 {
+    font: 22px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* игра*/
+.forma {
+    width: 314px;
+    height: 316px;
+    border: 2px solid blue;
+    background: url("/skins/default/img/kotzastavka.png") no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.game {
+    text-align: center;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #3B393F;
+
+}
+
+.gamel {
+    text-align: left;
+    font: 16px Times New Roman;
+    text-transform: uppercase;
+    color: #3B393F;
+
+}
+
+.gamea {
+    text-decoration: underline;
+}
+
+.gamea:hover {
+    color: #F1373A;
+}
+
+/*комментарии*/
+
+textarea.comments {
+    width: 800px;
+    height: 150px;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.commenttitle {
+    font: 18px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.commentform td, .formauto p, .formcalc p, .commentboxbody, .addgoods div {
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
+.commentboxbodycom,.commentboxbodycom1 {
+    margin: 5px;
+    padding: 7px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    word-wrap: break-word;
+    background-color: #f6f6f6;
+    text-align: justify;
+}
+
+.commentboxbodycom1 {
+    background-color: #fff;
+}
+
+.chatcom {
+    margin: 5px;
+    padding: 0px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    word-wrap: break-word;
+    background-color: #D3D3D3;
+    text-align: justify;
+}
+
+
+.commentboxname p {
+    padding-left: 10px;
+
+
+}
+
+.commentboxname span {
+    color:#ffffff;
+
+
+}
+.commentboxname, .wgoods .commentboxname span {
+    font: 10px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding: 3px;
+
+}
+
+.wgoods .newsimg {
+    padding: 0 20px 0 0;
+}
+
+.goods .cat, .cat {
+    display: block;
+    float: right;
+
+    background-color: #3B393F;
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #F6F6F6;
+}
+
+/*авторизация*/
+.prim, .formauto .prim {
+    font: 10px Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+
+fieldset {
+    background-color: #f6f6f6;
+    margin: 20px auto 20px auto;
+
+}
+
+#aaa #name, #aaa #pass{
+   border-radius: 3px;
+    margin-right: 5px;
+
+}
+
+
+
+.wcomments, .wauto, .wfmen, .wcalc, .wgoods {
+    width: 990px;
+    margin: 0 auto;
+}
+.wgoodscom{
+    height: 350px;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: scroll;
+
+
+}
+
+.commentform td span {
+    font: 12px Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+
+/*наш ассортимент*/
+.addgoods div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.goods .name {
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    /* text-decoration: underline;*/
+    color: #3B393F;
+}
+
+.name {
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    /* text-decoration: underline;*/
+    color: #3B393F;
+}
+
+.wgoods span {
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.goods .namen {
+    color: #ccc;
+}
+
+.goods p, .addgoods input, .addgoods textarea {
+    font: 14px Arial, Helvetica, sans-serif;
+
+}
+
+.goods p {
+    text-align: justify;
+    text-transform: none;
+    color: #3B393F;
+}
+
+.goods .auth {
+    text-align: justify;
+    text-transform: none;
+    color: #3B393F;
+    text-decoration: underline;
+}
+
+.goods p span {
+    text-align: left;
+}
+
+.goods .kp {
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /*text-decoration: underline;*/
+
+}
+
+.goods .kpn {
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.gname {
+    margin-top: 30px;
+}
+
+.goods span, .addgoods td {
+    font: 12px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    color: #3B393F;
+    padding: 5px;
+    background-color: #F6F6F6;
+
+}
+
+.status {
+    background-color: #FFFFFF;
+    text-align: center;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    color: #3B393F;
+    padding: 5px;
+}
+
+.goods span {
+    background-color: #FFFFFF;
+}
+
+.wgoods a {
+    text-transform: uppercase;
+    color: #3B393F;
+    font-weight: normal;
+    font: 16px Times New Roman;
+
+}
+
+.wgoods a:hover {
+    color: #F56064;
+}
+
+.wgoods .aavtor {
+    font: 14px Times New Roman;
+    text-transform: none;
+
+}
+
+.addgoods .subedit, .delete {
+    font-weight: normal;
+    text-transform: none;
+    margin: 10px;
+}
+
+.addgoods input {
+    margin: 10px;
+    width: 500px;
+}
+
+.addgoods textarea {
+    width: 700px;
+    height: 80px;
+}
+
+.addgoods .subedit {
+    width: inherit;
+}
+
+.goods {
+    font: 16px Arial, Helvetica, sans-serif;
+    /*text-transform: uppercase;
+    font-weight: bold;*/
+
+}
+
+.gright {
+
+    padding: 0;
+}
+
+.wgoods img {
+    float: left;
+    padding: 0px 30px 0 0;
+
+
+}
+
+.wgoods .imgn {
+    float: left;
+    padding: 50px 30px 0 0;
+    margin-bottom: 30px;
+
+}
+.wgoods .imgb {
+    float: left;
+    padding: 75px 30px 0 0;
+
+}
+.wgoods .imgbb {
+    float: left;
+    padding: 45px 30px 0 0;
+
+}
+.wgoods .imgbf {
+    float: left;
+    padding: 40px 30px 0 0;
+
+}
+.wgoods .imgnews {
+    float: left;
+    padding: 0px 30px 0 0;
+
+
+}
+.wgoods .imgnewsf {
+    float: left;
+    padding: 0px 30px 0 0;
+
+
+}
+
+.wgoods .imgg {
+    float: none;
+    margin: 20px 20px 0 0;
+    padding: 0;
+
+}
+
+.wgoods .imgfn {
+    float: left;
+    padding: 60px 30px 0 0;
+    margin-bottom: 30px;
+
+}
+
+/*admin*/
+.logoo {
+    position: absolute;
+    background: url(/skins/default/img/sprite.png) no-repeat 0 -468px;
+    width: 231px;
+    height: 88px;
+    left: 40px;
+    top: 20px;
+    float: left;
+}
+
+.cms {
+    font: 30px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F56064;
+    float: left;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.cms span {
+    font: 20px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding: 10px;
+
+}
+
+footer {
+    margin: 0;
+}
+
+.alast:hover {
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 12px;
+    color: #F56064;
+}
+
+.af1 h1 {
+    font: 25px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    color: #FFF;
+}
+
+.af1 p {
+    color: #f1373a;
+    font: 18px/21px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.users {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #3B393F;
+    border-collapse: collapse;
+
+}
+
+table.users td input {
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+}
+
+table.users td .short {
+    width: 40px;
+
+}
+
+.wgoods .inn, .wgoods .serch {
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #3B393F;
+}
+.wgoods .inna{
+    font: 11px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    color: #3B393F;
+}
+
+.ftr, .str {
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #cccccc;
+    font: 11px Arial, Helvetica, sans-serif;
+    height: 40px;
+
+}
+
+.str {
+    background-color: #F6F6F6;
+
+    /*border:1px solid #BEBEBE;*/
+}
+
+.ftr td {
+    border: 1px solid #BEBEBE;
+
+}
+
+.users td {
+    border-bottom: 1px dotted #cccccc;
+    padding: 3px;
+
+}
+
+/* форма загрузки изображений*/
+.file {
+    margin: 20px auto 20px auto;
+}
+
+.addgoods .author {
+    margin: 5px;
+    width: auto;
+
+}
+
+.wgoods .newsnav {
+    background-color: #cccccc;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.wgoods .pagination a {
+    padding: 7px;
+    background-color: #ccc;
+
+}
+
+.aaa h1 {
+    font: 22px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aaa {
+    width: 340px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    margin-left: 276px;
+    top: 0;
+    z-index: 2;
+}
+
+.right1 {
+    float:right;
+    width:240px;
+    height:30px;
+    position: absolute;
+    text-align:left;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 15px 15px;
+    background-color: #ccc;
+
+}
+
+.go {
+    color: #F1363A;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 5px 0 10px;
+    cursor: pointer;
+
+}
+
+.go:hover {
+    color: #fff;
+}
+
+.goreg {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ .goreg:hover {
+    color: #ff0000;
+}
+
+.close {
+    font-weight: bold;
+    float: right;
+    padding: 0;
+    width: 14px;
+}
+
+.prfon1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(/skins/default/img/prfon.png) repeat 100px 5px;
+    z-index: 2;
+}
+
+.zap {
+    text-transform: none;
+    font: 12px Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+
+}
+
+.mess {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: #ccc;
+
+}
+
+.wgoods .pag{
+    display: block;
+    float: left;
+    border: solid 1px #414240;
+    margin: 8px 4px;
+    padding: 0px 5px;
+    background-color: #F0F0F0;
+}
+.wgoods .paginator{
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.wgoods .pagact{
+    background-color: #ccc;
+    color:#ff0000;
+    display: block;
+    float: left;
+    border: solid 1px #414240;
+    margin: 8px 4px;
+    padding: 0px 5px;
+}
+
+/*чат*/
+
+.chat {
+    font:12px arial;
+    color: #222222;
+    text-align:center;
+    padding:15px;
+}
+#allmess{
+    height: 350px;
+    overflow-y:auto;
+
+}
+
+.chat input {
+    font:12px arial;
+}
+
+.wel a{
+    display: block;
+    color:#0000FF;
+    text-decoration:none;
+    float: right;
+    padding-top: 0;
+
+
+}
+.chat a:hover {
+    text-decoration:underline;
+}
+ #wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:720px;
+    border:1px solid #ACD8F0;
+}
+ #wrapper{
+   margin-bottom: 10px;
+ }
+
+
+#text {
+    width:400px;
+    border:1px solid #ACD8F0;
+    bottom:10px;
+    left:15%;
+}
+
+#button {
+    width: 60px;
+    bottom: 10px;
+    right: 20%;
+}
+.chat .error {
+    color: #ff0000;
+}
+
+ .wel{
+    text-align: left;
+    padding:12px 25px 12px 25px;
+    border-bottom:1px solid #ACD8F0;
+    margin: 0 auto;
+}
+
+#online{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: table-cell;
+    float: left;
+    width: 200px;
+    overflow-y:auto;
+}
+
+.commentboxname .name1{
+    font: 10px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding: 3px;
+    color: black;
+}
+.name1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+#delete{
+    display: block;
+    color: #0000FF;
+    text-decoration: none;
+    float: right;
+    padding-top: 0;
+}
+#allmess .delmes{
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+#allmess .delmes:hover{
+    color:red;
+}
