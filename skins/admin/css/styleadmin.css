@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*admin*/
+
+/*.logoo{
+    position:absolute;
+    background:url(/skins/default/img/sprite.png) no-repeat 0 -468px;
+    width:231px;
+    height:88px;
+    left:40px;
+    top:20px;
+    float: left;
+}
+
+.cms{
+    font: 30px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F56064;
+    float: left;
+    position: absolute;
+    left:400px;
+    top:20px;
+}
+.cms span{
+    font: 20px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding: 10px;
+
+}
+footer{
+    margin: 0;
+}
+
+.alast:hover{
+    font:14px  Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding-right:12px;
+    color:#F56064;
+}
+.af1 h1{
+    font:25px Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-align:right;
+    color:#FFF;
+}
+.af1 p{
+    color:#f1373a;
+    font:18px/21px Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-align:right;
+    margin-top:10px;
+}
+.users{
+    font:14px  Arial, Helvetica, sans-serif;
+    color: #3B393F;
+
+}
+.wgoods .inn{
+    font:12px  Arial, Helvetica, sans-serif;
+    color: #3B393F;
+}
+.ftr{
+    color: #000000;
+    text-transform:uppercase;
+    background-color: #cccccc;
+    font:11px  Arial, Helvetica, sans-serif;
+
+}*/

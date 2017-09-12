@@ -1,0 +1,22 @@
+{
+  "name": "tesst",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "less": "^2.7.2",
+    "viscompass": "compass#^0.7.1",
+    "compass-mixins": "^1.0.2",
+    "assets-loader": "^0.5.1"
+  }
+}
