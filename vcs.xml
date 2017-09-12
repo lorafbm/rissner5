@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/lorafbm/resanta.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/kirkolarisa/resanta.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\open_server_5_2_5_ultimate\OpenServer\domains\schoolphp" />
+    <option name="cloneParentDir" value="C:\open_server_5_2_5_ultimate\OpenServer\domains" />
   </component>
 </application>
