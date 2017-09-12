@@ -1,0 +1,91 @@
+/*часы*/
+.countbox {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    height: 106px;
+    line-height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+    .countbox {
+        margin: 0 auto;
+        float: none;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .countbox {
+        padding-left: 0px;
+        font-size: 45px;
+    }
+    }
+@media screen and (max-width: 320px) {
+    .countbox {
+        padding-left: 0px;
+        font-size: 35px;
+    }
+}
+.countbox .countbox-num {
+    float: left;
+}
+.countbox-num {
+    border: 1px solid #cccccc;
+}
+.countbox .countbox-space {
+    float: left;
+    height: 90px;
+    width: 8px;
+}
+.countbox-days,
+.countbox-hours,
+.countbox-mins,
+.countbox-secs
+ {
+    background: url('../img/sprite.png') -83px -123px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 73px;
+    text-align: center;
+    z-index: 1;
+
+}
+.countbox-days-text,
+.countbox-hours-text,
+.countbox-mins-text,
+.countbox-secs-text {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 14px !important;
+    margin-top: 90px;
+    position: absolute;
+    width: 106px;
+}
+.countbox-days span,
+.countbox-hours span,
+.countbox-mins span,
+.countbox-secs span
+ {
+    background-repeat: no-repeat;
+    display: block;
+    height: 89px;
+    position: absolute;
+    width: 55px;
+}
+.deviderr {
+    float: left;
+    font-size: 46px;
+    line-height: 65px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+@media screen and (max-width: 320px) {
+    .deviderr {
+        margin: 0;
+        font-size: 36px;
+
+    }
+}

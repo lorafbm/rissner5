@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../my/adapt1/.idea/adapt1.iml" filepath="$PROJECT_DIR$/../my/adapt1/.idea/adapt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my/dz10/.idea/dz10.iml" filepath="$PROJECT_DIR$/../my/dz10/.idea/dz10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my/dz13/.idea/dz13.iml" filepath="$PROJECT_DIR$/../my/dz13/.idea/dz13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dz19.iml" filepath="$PROJECT_DIR$/.idea/dz19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slider/.idea/fancy.iml" filepath="$PROJECT_DIR$/../slider/.idea/fancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../prestashop/.idea/prestashop.iml" filepath="$PROJECT_DIR$/../prestashop/.idea/prestashop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../resanta/.idea/resanta.iml" filepath="$PROJECT_DIR$/../resanta/.idea/resanta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sm/.idea/sm.iml" filepath="$PROJECT_DIR$/../sm/.idea/sm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my/dz4/.idea/tesst.iml" filepath="$PROJECT_DIR$/../my/dz4/.idea/tesst.iml" />
+    </modules>
+  </component>
+</project>

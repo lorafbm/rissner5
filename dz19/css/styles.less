@@ -1,0 +1,749 @@
+@font-face {
+  font-family: 'arialregular';
+  src: url('/dz19/css/fonts/arial-webfont.eot');
+  src: url('/dz19/css/fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/dz19/css/fonts/arial-webfont.woff2') format('woff2'),
+  url('/dz19/css/fonts/arial-webfont.woff') format('woff'),
+  url('/dz19/css/fonts/arial-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'arialbold';
+  src: url('/dz19/css/fonts/arialbd-webfont.eot');
+  src: url('/dz19/css/fonts/arialbd-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/dz19/css/fonts/arialbd-webfont.woff2') format('woff2'),
+  url('/dz19/css/fonts/arialbd-webfont.woff') format('woff'),
+  url('/dz19/css/fonts/arialbd-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'arialitalic';
+  src: url('/dz19/css/fonts//ariali-webfont.eot');
+  src: url('/dz19/css/fonts/ariali-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/dz19/css/fonts/ariali-webfont.woff2') format('woff2'),
+  url('/dz19/css/fonts/ariali-webfont.woff') format('woff'),
+  url('/dz19/css/fonts/ariali-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+header {
+  &:extend(.clearfix all);
+  text-align: left;
+  background-color: #F1F1F2;
+
+  img, p {
+    margin: 10px auto;
+
+  }
+  img {
+    display: block;
+    width: 100px;
+
+  }
+  div {
+    max-width: 980px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 680px) {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+  .one {
+    width: 10%;
+    float: left;
+    @media screen and (max-width: 1024px) {
+      width: 15%;
+    }
+
+    @media screen and (max-width: 680px) {
+      width: 100%;
+      float: none;
+    }
+  }
+  .two {
+    width: 63%;
+    float: left;
+    @media screen and (max-width: 1024px) {
+      width: 60%;
+
+    }
+    @media screen and (max-width: 768px) {
+      width: 55%;
+
+    }
+    @media screen and (max-width: 680px) {
+      width: 100%;
+      float: none;
+
+    }
+    h2 {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      margin-bottom: 5px;
+      text-align: center;
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
+      @media screen and  (max-width: 480px) {
+        margin-top: 5px;
+      }
+    }
+    h1 {
+      font-family: Arial, sans-serif;
+      font-size: 29px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      @media screen and  (max-width: 1024px) {
+        font-size: 21px;
+      }
+      @media screen and  (max-width: 980px) {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .three {
+    width: 27%;
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    @media screen and (max-width: 1024px) {
+      width: 25%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 30%;
+    }
+
+    @media screen and (max-width: 680px) {
+      width: 100%;
+      float: none;
+    }
+    a {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0px auto 10px auto;
+      color: #000000;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+      @media screen and (max-width: 1024px ) {
+        font-size: 16px;
+        text-align: center;
+      }
+
+    }
+    a:last-child {
+      display: block;
+      background: url('/dz19/img/sprite.png') no-repeat -10px -67px;
+      width: 256px;
+      height: 37px;
+      margin: 0;
+      text-align: center;
+      padding: 8px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      color: #000000;
+      outline: none;
+      text-decoration: none;
+      position: relative;
+      /*&:hover span {
+        background: url('/dz19/img/sprite.png') no-repeat -463px -37px;
+        width: 16px;
+        height: 17px;
+        position: absolute;
+        margin-left: -30px;
+      }*/
+
+      @media screen and (max-width: 1024px) {
+        background: url('/dz19/img/sprite.png') no-repeat -177px -122px;
+        width: 190px;
+        height: 32px;
+        padding: 5px;
+      }
+      @media screen and (max-width: 680px) {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/*модальное окно*/
+.modal-content {
+  border-radius: 0px;
+  background-color: #FFEE02;
+
+  table {
+    td {
+      padding: 10px;
+      @media screen and (max-width: 320px) {
+        font-size: 13px;
+      }
+    }
+    input {
+      @media screen and (max-width: 320px) {
+        width: 100px;
+      }
+    }
+  }
+  input[type=submit] {
+    background: url('/dz19/img/sprite.png') no-repeat -177px -175px;
+    width: 256px;
+    height: 37px;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+    outline: none;
+
+    @media screen and (max-width: 320px) {
+      margin-left: -10px;
+    }
+  }
+  input[type=text]::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.modal-header {
+  border-bottom: 0px;
+}
+
+.modal-title {
+  font-family: arialregular, Arial, sans-serif;
+  font-size: 24px;
+  @media screen and (max-width: 320px) {
+    font-size: 18px;
+  }
+}
+
+.title {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  font-family: arialregular, Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* желтый блок с таймеромk*/
+.yellow {
+  width: 100%;
+  background-color: #FED80F;
+  .row {
+    max-width: 990px;
+    margin: 0 auto;
+
+    > div {
+      float: left;
+    }
+  }
+   .row-flex {
+     display: flex;
+     flex-flow: row wrap;
+   }
+  .cena {
+    padding: 15px;
+    p:first-child {
+      font-family: Arialregular, sans-serif;
+      font-size: 20px;
+      span {
+        color: #FF0000;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+    p:last-child {
+      font-size: 12px;
+
+    }
+    .middle {
+      font-family: Arialregular, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000000;
+      line-height: 25px;
+
+      span {
+        text-transform: uppercase;
+      }
+    }
+
+    .akcia {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      float: left;
+      margin-top: 25px;
+      margin-right: 10px;
+      @media screen and (max-width: 480px) {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.yellow1 {
+  background-color: #FFEE02;
+
+
+  p {
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  form {
+    padding: 5px;
+    margin-top: 20px;
+    input {
+      margin: 5px;
+    }
+    input[type=submit] {
+      background: url('/dz19/img/sprite.png') no-repeat -177px -175px;
+      width: 256px;
+      height: 37px;
+      border: none;
+      color: #ffffff;
+      margin: 30px auto 10px auto;
+      outline: none;
+      position: relative;
+
+      /* &:hover {
+         text-decoration: underline;
+       }*/
+    }
+  }
+}
+
+/* продукция с фото*/
+.prod {
+  &:extend(.clearfix all);
+  width: 100%;
+  height: auto;
+  max-width: 980px;
+  margin: 0 auto;
+  /*font-size: 0;*/
+  text-align: center;
+  h2 {
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+
+    @media screen and  (max-width: 1024px) {
+      margin-left: 10px;
+      text-align: center;
+    }
+    @media screen and  (max-width: 768px) {
+      font-size: 21px;
+    }
+    @media screen and  (max-width: 640px) {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+
+  h6 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 3%;
+  }
+
+  > div {
+    width: 31%;
+    margin: 1%;
+    display: inline-block;
+    border: 1px solid #cccccc;
+
+    @media screen and (max-width: 900px) {
+      width: 33%;
+    }
+    @media screen and (max-width: 860px) {
+      width: 35%;
+    }
+    @media screen and (max-width: 800px) {
+      width: 38%;
+    }
+    @media screen and (max-width: 740px) {
+      width: 40%;
+    }
+    @media screen and (max-width: 700px) {
+      width: 44%;
+    }
+    @media screen and (max-width: 650px) {
+      width: 98%;
+    }
+
+    p {
+      text-align: left;
+
+      span {
+        border: none;
+        color: #000000;
+        margin-top: 30px;
+        outline: none;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 3%;
+      }
+
+      span:first-child {
+        text-decoration: line-through;
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: normal;
+      }
+    }
+    a:last-child {
+      background: url('/dz19/img/sprite.png') no-repeat -177px -175px;
+      border: none;
+      color: #ffffff;
+      margin: 3%;
+      padding: 3%;
+      outline: none;
+      display: block;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        background: url('/dz19/img/sprite.png') no-repeat -10px -67px;
+      }
+      &:visited {
+        text-decoration: none;
+      }
+      &:active {
+        text-decoration: none;
+      }
+      @media screen and (max-width: 650px) {
+        display: inline-block;
+        padding: 8px 60px;
+      }
+      @media screen and (max-width: 320px) {
+        margin-left: 0;
+        margin-right: 0;
+
+      }
+    }
+    img {
+      width: 180px;
+      padding: 5%;
+    }
+  }
+}
+
+/*списки преимуществ*/
+
+.containerr {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 10px;
+  div {
+    background: url('/dz19/img/sprite.png') no-repeat -410px -107px;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+    &:hover {
+      background: url('/dz19/img/sprite.png') no-repeat -355px -24px;
+    }
+    @media screen and (max-width: 480px) {
+      height: 48px;
+    }
+  }
+  h5 {
+    font-weight: bold;
+    margin-bottom: 0;
+    @media screen and (max-width: 480px) {
+      margin-bottom: 10px;
+    }
+  }
+  h2 {
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    @media screen and (max-width: 480px) {
+      font-size: 26px;
+      padding: 10px;
+    }
+  }
+  p {
+    margin-left: 45px;
+  }
+  .h2 {
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+    @media screen and (max-width: 480px) {
+      font-size: 26px;
+      padding: 10px;
+    }
+  }
+  ul {
+    li {
+      list-style-type: none;
+      margin-bottom: 10px;
+      &:before {
+        content: "";
+        background: url('/dz19/img/sprite.png') no-repeat -410px -107px;
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-right: 10px;
+        margin-left: -40px;
+      }
+      &:hover:before {
+        background: url('/dz19/img/sprite.png') no-repeat -355px -24px;
+      }
+    }
+  }
+}
+
+/*голубой див*/
+.blue {
+  background-color: #F1F1F2;
+  > div {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 10px;
+    text-align: center;
+  }
+  .img1 {
+    background: url('/dz19/img/sprite.png') no-repeat  -199px -380px;
+  }
+  .img2 {
+    background: url('/dz19/img/sprite.png') no-repeat  0px -244px;
+  }
+  .img3 {
+    background: url('/dz19/img/sprite.png') no-repeat  -199px -244px;
+  }
+  .img4 {
+    background: url('/dz19/img/sprite.png') no-repeat  -0px -380px;
+  }
+
+  .img {
+    width: 220px;
+    position: relative;
+    display: inline-block;
+
+    @media screen and (max-width: 480px) {
+      margin-bottom: 40px;
+    }
+
+    .imgg {
+      width: 170px;
+      height: 120px;
+      margin: 15px auto;
+      border: 1px solid #cccccc;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+    @media screen and (max-width: 480px) {
+      font-size: 26px;
+      padding: 10px;
+    }
+  }
+
+}
+
+.devider {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: -15px;
+  top: 59px;
+  background: url('/dz19/img/sprite.png') no-repeat -439px -147px;
+  &:hover {
+    background: url('/dz19/img/sprite.png') no-repeat -416px -24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 85px;
+    top: -35px;
+  }
+}
+
+/*футер*/
+footer {
+  background-color: #F1F1F2;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+
+  div {
+    max-width: 980px;
+    margin: 0 auto;
+    p:first-child {
+      a {
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 5px;
+        white-space: nowrap;
+        color:#000000;
+        text-decoration: none;
+        &:hover {
+          color: #000000;
+          text-decoration: none;
+        }
+      }
+    }
+      .zakaz {
+        color: #ff0000;
+        text-decoration: underline;
+        &:hover {
+          color: #ff0000;
+          text-decoration: none;
+        }
+      }
+
+    address {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+  }
+}
+/*счетчик*/
+
+/*часы*/
+.countbox {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  height: 106px;
+  line-height: 80px;
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  .countbox {
+    margin: 0 auto;
+    float: none;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .countbox {
+    padding-left: 0px;
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .countbox {
+    padding-left: 0px;
+    font-size: 35px;
+  }
+}
+.countbox .countbox-num {
+  float: left;
+}
+.countbox-num {
+  border: 1px solid #cccccc;
+}
+.countbox .countbox-space {
+  float: left;
+  height: 90px;
+  width: 8px;
+}
+.countbox-days,
+.countbox-hours,
+.countbox-mins,
+.countbox-secs
+{
+  background: url('../img/sprite.png') -83px -123px;
+  background-repeat: no-repeat;
+  float: left;
+  height: 73px;
+  text-align: center;
+  z-index: 1;
+
+}
+.countbox-days-text,
+.countbox-hours-text,
+.countbox-mins-text,
+.countbox-secs-text {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 14px !important;
+  margin-top: 90px;
+  position: absolute;
+  width: 106px;
+}
+.countbox-days span,
+.countbox-hours span,
+.countbox-mins span,
+.countbox-secs span
+{
+  background-repeat: no-repeat;
+  display: block;
+  height: 89px;
+  position: absolute;
+  width: 55px;
+}
+.deviderr {
+  float: left;
+  font-size: 46px;
+  line-height: 65px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-weight: bold;
+}
+@media screen and (max-width: 320px) {
+  .deviderr {
+    margin: 0;
+    font-size: 36px;
+
+  }
+}

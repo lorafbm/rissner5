@@ -1,0 +1,82 @@
+%!Adobe-FontList 1.14
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+FullName:Arial
+MenuName:Arial
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\ИРИШКА\работа по web-дизайну\LP электрооборудование\верстка\Папка lp-instrymenty\Document fonts\arial.ttf
+DataFormat:sfntData
+FileLength:755624
+FileModTime:1353107181
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Arial-BoldMT
+FamilyName:Arial
+StyleName:Bold
+FullName:Arial Bold
+MenuName:Arial
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:F:\ИРИШКА\работа по web-дизайну\LP электрооборудование\верстка\Папка lp-instrymenty\Document fonts\arialbd.ttf
+DataFormat:sfntData
+FileLength:718264
+FileModTime:1353107181
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Arial-ItalicMT
+FamilyName:Arial
+StyleName:Italic
+FullName:Arial Italic
+MenuName:Arial
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\ИРИШКА\работа по web-дизайну\LP электрооборудование\верстка\Папка lp-instrymenty\Document fonts\ariali.ttf
+DataFormat:sfntData
+FileLength:530880
+FileModTime:1338668731
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\ИРИШКА\работа по web-дизайну\LP электрооборудование\верстка\Папка lp-instrymenty\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1329292426
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
