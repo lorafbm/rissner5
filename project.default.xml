@@ -1,0 +1,37 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="6417c719-4f04-4c11-bee9-fc07b46b9449" synchronizationState="SYNCHRONIZE">
+        <pharConfigPath>C:\open_server_5_2_5_ultimate\OpenServer\domains\localhost\composer.json</pharConfigPath>
+        <pharPath>C:\open_server_5_2_5_ultimate\OpenServer\domains\localhost\composer.phar</pharPath>
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
